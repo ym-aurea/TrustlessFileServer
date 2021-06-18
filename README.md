@@ -1,5 +1,6 @@
 # TrustlessFileServer
 Simple implementation of file server with merkle tree
+* prerequisite: jdk 11, gradle 7.0
 * build project: gradle build
 * run tests: gradle test --rerun-tasks
 * run: java -jar build/libs/TrustlessFileServer-1.0-SNAPSHOT.jar --filePath="icons_rgb_circle.png"
