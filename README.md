@@ -1,8 +1,8 @@
 # TrustlessFileServer
 Simple implementation of file server with merkle tree
-build project: gradle build
-run tests: gradle test --rerun-tasks
-run: java -jar build/libs/TrustlessFileServer-1.0-SNAPSHOT.jar --filePath="icons_rgb_circle.png"
+* build project: gradle build
+* run tests: gradle test --rerun-tasks
+* run: java -jar build/libs/TrustlessFileServer-1.0-SNAPSHOT.jar --filePath="icons_rgb_circle.png"
 
 # Sample request hashes:
 curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET http://localhost:8080/hashes
